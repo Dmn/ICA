@@ -21,10 +21,6 @@ public class MessageQueue extends ArrayBlockingQueue<Message> implements Runnabl
         start();
     }
 
-
-
-
-
 //    public static MessageQueue getMsgQ(String name)
 //    {
 //        if (msgQ == null)
